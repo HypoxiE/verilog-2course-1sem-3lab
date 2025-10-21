@@ -24,10 +24,12 @@ module d_trigger(
 	output reg Q,
 	output wire Q_inv
 );
+	parameter DELAY = 2;
+
 	assign Q_inv = ~Q;
 
 	always @(posedge Clock) begin
-		Q <= D;
+		Q <= #DELAY D;
 	end
 endmodule
 
