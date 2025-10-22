@@ -15,14 +15,14 @@ module tb;
 
 	initial begin
 		inp = 0;
-		forever #500000 inp = ~inp; // цикл: каждые 500 ms inp меняется
+		forever #500000 inp = ~inp; // цикл: каждые 0.5 ms inp меняется
 	end
 
 	initial begin
 		$dumpfile("out.vcd");
 		$dumpvars(0, tb);
 
-		#10000000 $finish; // ожидаем 1s и завершаем программу
+		#10000000 $finish; // ожидаем 10 4ms и завершаем программу
 	end
 
 	// Задание 2
