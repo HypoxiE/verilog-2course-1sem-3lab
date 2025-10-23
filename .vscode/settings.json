@@ -1,0 +1,39 @@
+{
+	"[verilog]": {
+		"editor.colorDecorators": false
+	},
+	"[plaintext]": {
+		"editor.colorDecorators": false
+	},
+
+
+
+//	Для скриншотов
+//	"workbench.colorCustomizations": {
+//		"editor.background": "#FFFFFF",
+//		"editor.foreground": "#000000",
+//		"editorLineNumber.foreground": "#000000",
+//		"editorCursor.foreground": "#000000",
+//		"editor.selectionBackground": "#DDDDDD",
+//		"editor.inactiveSelectionBackground": "#EEEEEE",
+//		"editorLineNumber.activeForeground": "#000000",
+//		"editorIndentGuide.background": "#CCCCCC",
+//		"activityBar.background": "#FFFFFF",
+//		"sideBar.background": "#FFFFFF",
+//		"statusBar.background": "#FFFFFF",
+//		"statusBar.foreground": "#000000",
+//		"tab.activeBackground": "#FFFFFF",
+//		"tab.activeForeground": "#000000",
+//		"tab.inactiveForeground": "#666666"
+//	},
+//	"editor.tokenColorCustomizations": {
+//		"textMateRules": [
+//			{
+//				"scope": ["*"],
+//				"settings": {
+//					"foreground": "#000000"
+//				}
+//			}
+//		]
+//	}
+}
