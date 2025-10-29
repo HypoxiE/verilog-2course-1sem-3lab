@@ -65,7 +65,7 @@ endmodule
 //		$dumpfile("out.vcd");
 //		$dumpvars(0, tb);
 
-//		#10000000 $finish; // ожидаем 10 4ms и завершаем программу
+//		#10000000 $finish; // ожидаем 10 ms и завершаем программу
 //	end
 //endmodule
 //module not_(input wire a, output wire b);
